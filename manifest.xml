@@ -3,7 +3,7 @@
 	<name>Minimal Hide Search Box</name>
 	<id>minimal_hide_search</id>
 	<author>iionly</author>
-	<version>2.3.1</version>
+	<version>3.0.0</version>
 	<category>enhancements</category>
 	<description>This little plugin hides the search box from people not logged-in.</description>
 	<website>https://github.com/iionly</website>
@@ -11,6 +11,6 @@
 	<license>GNU Public License version 2</license>
 	<requires>
 		<type>elgg_release</type>
-		<version>2.3.0</version>
+		<version>3.0.0</version>
 	</requires>
 </plugin_manifest>
