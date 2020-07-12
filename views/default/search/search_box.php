@@ -10,12 +10,13 @@ if (elgg_in_context('search') || !elgg_is_logged_in()) {
 	return;
 }
 
-$class = elgg_extract_class($vars, "elgg-search");
+$class = elgg_extract_class($vars, 'elgg-search');
 unset($vars['class']);
 
 echo elgg_view_form('search', [
-	'action' => elgg_normalize_url('search'),
+	'action' => elgg_generate_url('default:search'),
 	'method' => 'get',
 	'disable_security' => true,
 	'class' => $class,
+	'prevent_double_submit' => true,
 ], $vars);

@@ -1,6 +1,13 @@
 Changelog
 ---------
 
+3.3.0
+-----
+
+- Requires Elgg 3.3 at minimum,
+- Removal of start.php (existence now no longer a required by Elgg),
+- Overriden (and customized) search/search_box view code taken from currently latest Elgg version (3.3.8) to be up-to-date with Elgg core functionality.
+
 3.0.0
 -----
 
